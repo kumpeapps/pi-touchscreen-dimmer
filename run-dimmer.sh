@@ -5,11 +5,11 @@
 # Best to run this script from /etc/rc.local to start at boot.
 
 #EDIT THIS VALUE to set the period before it will dim
-timeout_period=30 # seconds
+timeout_period=10 # seconds
 
 #EDIT THIS VALUE to set the brightness it dims the display to.
 #0-253 0 will be backlight off, 9 is probably the smallest you would use with my test display
-min_brightness=15
+min_brightness=10
 
 # Find the device the touchscreen uses.  This can change depending on
 # other input devices (keyboard, mouse) are connected at boot time.
