@@ -27,4 +27,4 @@ for line in $(lsinput); do
         fi
 done
 # Use nice as it sucks up CPU.
-nice -n 19 /etc/timeout $timeout_period $min_brightness $dev &
+nice -n 19 ./timeout $timeout_period $min_brightness $dev &
